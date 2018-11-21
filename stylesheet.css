@@ -5,23 +5,62 @@ body {
 }
 
 .herobanner {
-
+  background-color: #2C3B43;
+  height: 70vh;
 }
 
 .herobanner h1 {
-  color: blue;
+  color: white;
 }
 
 .herobanner img {
-  width: 200px;
+  width: 400px;
 }
 
+.herobanner p {
+  color: white;
+}
 
-/* <div class="herobanner">
-  <h1>Regional Renovations LTD</h1>
-  <img src="img/logo.png" alt="">
-  <h1 class="ct">Construction Specialists</h1>
-  <p class="sl"><em>"No job too small"</em></p>
-  <p class="ct"><strong>Extentions, Stonework, Plastering, Rendering, Painting <br>and more...</strong></p>
+#titlebar {
+  background-color: #86BB15;
+  text-align: center;
+}
 
+#titlebar.navbar {
+
+}
+
+.navbar li {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+
+.socialbar li {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+
+/* <div id="titlebar">
+  <!-- nav left bar -->
+  <div class="navbar" class="navbarelements">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <!-- Logo middle bar -->
+  <div class="logobox" class="navbarelements">
+    <img src="img/logo_mini.png" alt="Regional Renovation LTD" height="100px">
+  </div>
+  <!-- social right bar -->
+  <div class="socialbar" class="navbarelements">
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </div>
 </div>
