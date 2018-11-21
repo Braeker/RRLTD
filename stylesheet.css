@@ -4,63 +4,108 @@ body {
   margin: 0;
 }
 
+/* Hero Banner */
 .herobanner {
-  background-color: #2C3B43;
+  /*background-color: #2C3B43;*/
+  background-image: url("img/placeholder_hero.jpg");
   height: 70vh;
+  width: 100vw;
+  margin: 0;
+}
+
+ul {
+  margin: 0
 }
 
 .herobanner h1 {
+  display: block;
+  margin: 0 50%;
+  padding-top: 100px;
   color: white;
 }
 
-.herobanner img {
+/*.herobanner img {
   width: 400px;
-}
+}*/
 
 .herobanner p {
   color: white;
+  display: block;
+  margin: 0 50%;
 }
 
-#titlebar {
+/* titlebar */
+
+nav {
   background-color: #86BB15;
-  text-align: center;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 11vh;
+  position: sticky;
+  margin: 0;
 }
 
-#titlebar.navbar {
+nav .logobox {
+ display: block;
+ position: absolute;
+ margin: 0 35vw;
+ top: 0px;
 
 }
 
-.navbar li {
+.logobox img {
+  height: 150px;
+  border: 8px solid #86BB15;
+  border-top: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.navbar {
+  display: block;
+  float: left
+
+}
+
+.menu1 {
+  background-color: black;
+  height: 10px;
+  width: 50px;
+  margin: 5px;
+}
+
+.socialbar {
+ display: block;
+ float: right;
+ right: 40px;
+ top: 0px;
+}
+
+nav ul {
+  background-color: black;
+  height: 300px;
+  border: 5px solid black;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px
+}
+
+nav li {
   list-style: none;
   text-align: center;
-  display: inline;
+  margin: 30px 0px;
 }
 
-.socialbar li {
-  list-style: none;
-  text-align: center;
-  display: inline;
+nav a {
+  text-decoration: none;
+  background-color: #2C3B43;
+  color: white;
+  border: 5px solid white;
+  border-radius: 8px;
+  padding: 5px 20px;
 }
 
-/* <div id="titlebar">
-  <!-- nav left bar -->
-  <div class="navbar" class="navbarelements">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-  <!-- Logo middle bar -->
-  <div class="logobox" class="navbarelements">
-    <img src="img/logo_mini.png" alt="Regional Renovation LTD" height="100px">
-  </div>
-  <!-- social right bar -->
-  <div class="socialbar" class="navbarelements">
-    <ul>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Twitter</a></li>
-    </ul>
-  </div>
-</div>
+nav a:hover {
+  color: #2C3B43;
+  background-color: white;
+  border-color: #2C3B43;
+}
