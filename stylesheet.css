@@ -1,7 +1,47 @@
+body {
+  font-family: 'PT Serif', serif;
+  margin: 0;
+}
 
-.titlebar {
-  background-color: #81AE2C;
-  display: inline;
-  position: absolute;
-  border: solid;
+#titlebar {
+  background-color: green;
+}
+
+
+
+.navbarelements {
+  background-color: blue;
+}
+
+.contentleft {
+  box-sizing: border-box;
+  background-color: yellow;
+  border: black solid;
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+}
+.contentmiddle {
+  box-sizing: border-box;
+  background-color: yellow;
+  border: black solid;
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+}
+.contentright {
+  box-sizing: border-box;
+  background-color: yellow;
+  border: black solid;
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
