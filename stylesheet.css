@@ -4,29 +4,24 @@ body {
   margin: 0;
 }
 
-#titlebar {
+.herobanner {
 
 }
 
-.navbarelements {
-
+.herobanner h1 {
+  color: blue;
 }
 
-.contentleft {
-
+.herobanner img {
+  width: 200px;
 }
 
-.contentmiddle {
 
-}
-.contentright {
+/* <div class="herobanner">
+  <h1>Regional Renovations LTD</h1>
+  <img src="img/logo.png" alt="">
+  <h1 class="ct">Construction Specialists</h1>
+  <p class="sl"><em>"No job too small"</em></p>
+  <p class="ct"><strong>Extentions, Stonework, Plastering, Rendering, Painting <br>and more...</strong></p>
 
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
+</div>
