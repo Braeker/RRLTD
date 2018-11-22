@@ -8,10 +8,12 @@ body {
 .herobanner {
   /*background-color: #2C3B43;*/
   background-image: url("img/placeholder_hero.jpg");
+  background-repeat: no-repeat;
   height: 70vh;
   width: 100vw;
   margin: 0;
 }
+
 
 ul {
   margin: 0
@@ -19,8 +21,8 @@ ul {
 
 .herobanner h1 {
   display: block;
-  margin: 0 50%;
-  padding-top: 100px;
+  margin: 0 15%;
+  padding-top: 400px;
   color: white;
 }
 
@@ -31,16 +33,16 @@ ul {
 .herobanner p {
   color: white;
   display: block;
-  margin: 0 50%;
+  margin: 0 15%;
 }
 
 /* titlebar */
 
 nav {
-  background-color: #86BB15;
+  background-color: #6D982C;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
   width: 100vw;
-  height: 11vh;
+  height: 5vh;
   position: sticky;
   margin: 0;
 }
@@ -55,38 +57,68 @@ nav .logobox {
 
 .logobox img {
   height: 150px;
-  border: 8px solid #86BB15;
+  border: 8px solid #6D982C;
   border-top: none;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 .navbar {
+  position: absolute;
   display: block;
-  float: left
-
+  float: left;
 }
 
 .menu1 {
+  position: relative;
   background-color: black;
-  height: 10px;
-  width: 50px;
-  margin: 5px;
+  height: 1px;
+  width: 35px;
+  margin: 0px 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  top: 8px;
+
 }
 
-.socialbar {
+.menu2 {
+  position: relative;
+  background-color: black;
+  height: 1px;
+  width: 35px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  top: 8px;
+}
+
+.menu3 {
+  position: relative;
+  background-color: black;
+  height: 1px;
+  width: 35px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  top: 8px;
+}
+
+/*.socialbar {
  display: block;
  float: right;
  right: 40px;
  top: 0px;
-}
+}*/
 
 nav ul {
+  position: relative;
   background-color: black;
   height: 300px;
   border: 5px solid black;
   border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px
+  border-bottom-right-radius: 8px;
+  padding-inline-start: 5px;
+  top: 17px;
 }
 
 nav li {
@@ -102,6 +134,7 @@ nav a {
   border: 5px solid white;
   border-radius: 8px;
   padding: 5px 20px;
+
 }
 
 nav a:hover {
