@@ -49,10 +49,11 @@ nav {
 }
 
 nav .logobox {
- display: block;
  position: absolute;
- margin: 0 35vw;
+ margin: 0 auto;
  top: 0px;
+ right: 0;
+ left: 0;
 
 }
 
