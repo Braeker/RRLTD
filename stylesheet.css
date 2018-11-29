@@ -27,9 +27,12 @@ ul {
   color: white;
 }
 
-/*.herobanner img {
-  width: 400px;
-}*/
+#fb img{
+  position: relative;
+  bottom: 77px;
+  width: 47px;
+  height: 47px;
+}
 
 .herobanner p {
   color: white;
@@ -43,17 +46,15 @@ nav {
   background-color: #6D982C;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
   width: 100vw;
-  height: 5vh;
+  height: 47px;
   position: sticky;
   margin: 0;
 }
 
 nav .logobox {
  position: absolute;
- margin: 0 auto;
- top: 0px;
- right: 0;
- left: 0;
+ left: 32%;
+ top: 0;
 
 }
 
@@ -71,6 +72,11 @@ nav .logobox {
   float: left;
 }
 
+#menu {
+  margin-left: 10px;
+}
+
+
 .menu1 {
   position: relative;
   background-color: black;
@@ -82,6 +88,7 @@ nav .logobox {
   top: 8px;
 
 }
+
 
 .menu2 {
   position: relative;
@@ -105,18 +112,18 @@ nav .logobox {
   top: 8px;
 }
 
-/*.socialbar {
+.socialbar {
  display: block;
  float: right;
  right: 40px;
  top: 0px;
-}*/
+}
 
 nav ul {
   position: relative;
-  background-color: black;
+  /*background-color: black;*/
   height: 300px;
-  border: 5px solid black;
+  /*border: 5px solid black;*/
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   padding-inline-start: 5px;
@@ -126,20 +133,27 @@ nav ul {
 nav li {
   list-style: none;
   text-align: center;
-  margin: 30px 0px;
-}
-
-nav a {
-  text-decoration: none;
-  background-color: #2C3B43;
-  color: white;
+  margin: 10px 0px;
   border: 5px solid white;
   border-radius: 8px;
-  padding: 5px 20px;
-
+  background-color: #2C3B43;
 }
 
-nav a:hover {
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  min-width: 50px;
+  max-width: 55px
+}
+
+.navbar a:hover {
+  color: #2C3B43;
+  width: 115px;
+  height:
+}
+
+nav li:hover {
   color: #2C3B43;
   background-color: white;
   border-color: #2C3B43;
