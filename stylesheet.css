@@ -147,7 +147,7 @@ nav li {
   max-width: 55px
 }
 
-.navbar a:hover {
+.navbar > a:hover {
   color: #2C3B43;
   width: 115px;
   height:
@@ -157,4 +157,8 @@ nav li:hover {
   color: #2C3B43;
   background-color: white;
   border-color: #2C3B43;
+}
+
+.footbar {
+  background-color: #2C3B43;
 }
