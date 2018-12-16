@@ -27,12 +27,11 @@ ul {
   color: white;
 }
 
-#fb img{
-  position: relative;
-  bottom: 77px;
-  width: 47px;
-  height: 47px;
+#fb img {
+
+
 }
+
 
 .herobanner p {
   color: white;
@@ -112,11 +111,10 @@ nav .logobox {
   top: 8px;
 }
 
-.socialbar {
- display: block;
- float: right;
- right: 40px;
- top: 0px;
+div.socialbar {
+  position: relative;
+  right: 0px;
+  top: 0px;
 }
 
 nav ul {
@@ -130,7 +128,7 @@ nav ul {
   top: 17px;
 }
 
-nav li {
+nav li.menuicon {
   list-style: none;
   text-align: center;
   margin: 10px 0px;
@@ -139,7 +137,7 @@ nav li {
   background-color: #2C3B43;
 }
 
-.navbar a {
+a.menuicon {
   text-decoration: none;
   color: white;
   padding: 5px 20px;
@@ -147,13 +145,13 @@ nav li {
   max-width: 55px
 }
 
-.navbar > a:hover {
+a.menuicon:hover {
   color: #2C3B43;
   width: 115px;
   height:
 }
 
-nav li:hover {
+li.menuicon:hover {
   color: #2C3B43;
   background-color: white;
   border-color: #2C3B43;
